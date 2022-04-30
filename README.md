@@ -1,5 +1,11 @@
 # Minerva-Gateway
 
+## Beschreibung
+
+Mit dem Gateway sollen bereits vorhandene sowie zukünftige Applikationen des Projekts einheitlich
+durch [Keycloak](https://www.keycloak.org/) abgesichert und durch den Loadbalancer geroutet werden. Service Discovery,
+sowie die Bereitstellung der Properties übernimmt die Software [Consul](https://www.consul.io/).
+
 ## Docker Image bauen und nach Docker Hub pushen
 
 Um ein Image nach [Docker Hub](https://hub.docker.com/) zu pushen wird ein entsprechender Account benötigt. Wichtig ist,
